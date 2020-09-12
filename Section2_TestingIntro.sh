@@ -195,13 +195,13 @@ cleanInput=$(echo $rawInput | tr -d '\011\012\015\009\010\012\013\015\032\040\17
             ;;
 	2)
             fromFunction=1
-            bash ${UNIXTUT}/runTutorial.sh ${UNIXTUT}/Section_One/cdDialog.txt
+            bash ${UNIXTUT}/runTutorial.sh ${UNIXTUT}/Section_Two/MovingFiles.txt
             #bash ${UNIXTUT}/Section_One/cdTut.sh
             menu
             ;;
 	3)
             fromFunction=1
-            bash ${UNIXTUT}/runTutorial.sh ${UNIXTUT}/Section_One/dirDialog.txt
+            bash ${UNIXTUT}/runTutorial.sh ${UNIXTUT}/Section_Two/copy.txt
             #bash ${UNIXTUT}/Section_One/dirTut.sh
             menu
 	    ;;
