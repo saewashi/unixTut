@@ -211,7 +211,7 @@ cleanInput=$(echo $rawInput | tr -d '\011\012\015\009\010\012\013\015\032\040\17
 	    ;;	
         5)
             fromFunction=1 
-            bash ${UNIXTUT}/runTutorial.sh ${UNIXTUT}/Section_One/permDialog.txt
+            bash ${UNIXTUT}/runTutorial.sh ${UNIXTUT}/Section_Two/rm.txt
             #bash ${UNIXTUT}/Section_One/permTut.sh
             menu
 	    ;;
